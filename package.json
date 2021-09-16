@@ -1,0 +1,31 @@
+{
+  "name": "dealer_rater_challenge",
+  "version": "1.0.0",
+  "description": "## Running",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js",
+    "lint": "eslint --fix .",
+    "prettier": "prettier -w ."
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unmzn/dealer_rater_challenge.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unmzn/dealer_rater_challenge/issues"
+  },
+  "homepage": "https://github.com/unmzn/dealer_rater_challenge#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "cheerio": "^1.0.0-rc.10",
+    "prettier": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
