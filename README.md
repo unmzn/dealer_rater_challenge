@@ -7,7 +7,9 @@ Copy `.env_example` to `.env` which is .gitignored. Normally this is to protect 
 You can modify the `REVIEW_PAGE_URL` to scrape reviews for a different dealer, or `USE_SIMPLE_SCORING` to use my quick-n-dirty sentiment analyzer instead of a real one from npm.
 
 Developed with node v14.15.0
+
 `npm run start` to run it.
+
 `npm run test` to run tests.
 
 ## Positivity Scoring:
@@ -36,9 +38,13 @@ In this case, it looks like there's lots of variation in the length of reviews t
 ## Influences:
 
 https://www.twilio.com/blog/4-tools-for-web-scraping-in-node-js
+
 https://nodejs.libhunt.com/compare-axios-vs-got
+
 https://www.freecodecamp.org/news/how-to-scrape-websites-with-node-js-and-cheerio/
+
 https://stackoverflow.com/a/62892482
+
 https://www.tabnine.com/code/javascript/functions/cheerio/Cheerio/each
 
 ## Commentary:
