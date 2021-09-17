@@ -1,13 +1,13 @@
 {
   "name": "dealer_rater_challenge",
   "version": "1.0.0",
-  "description": "## Running",
+  "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest",
-    "start": "node src/main.js",
     "lint": "eslint --fix .",
-    "prettier": "prettier -w ."
+    "prettier": "prettier -w .",
+    "start": "node src/main.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,12 +23,12 @@
     "axios": "^0.21.4",
     "cheerio": "^1.0.0-rc.10",
     "dotenv": "^10.0.0",
-    "eslint-plugin-jest": "^24.4.2",
-    "jest": "^27.2.0",
     "sentiment": "^5.0.2"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
+    "eslint-plugin-jest": "^24.4.2",
+    "jest": "^27.2.0",
     "prettier": "^2.4.1"
   }
 }
