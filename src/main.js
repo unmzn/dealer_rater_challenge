@@ -1,8 +1,8 @@
 const { main } = require("./index.js");
 
-(() => {
+(async () => {
   try {
-    main();
+    await main();
   } catch (err) {
     console.error(err);
   }
