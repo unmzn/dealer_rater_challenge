@@ -6,11 +6,13 @@ Copy `.env_example` to `.env` which is `.gitignore`'d. Normally this is to prote
 
 You can modify the `REVIEW_PAGE_URL` to scrape reviews for a different dealer, or `USE_SIMPLE_SCORING` to use my quick-n-dirty sentiment analyzer instead of a real one from npm.
 
-Developed with node v14.15.0
+Developed with `node v14.15.0`
 
 `npm run start` to run it.
 
 `npm run test` to run tests.
+
+`npm run lint/prettier` if you like - I don't like developing JS w/o these
 
 ## Positivity Scoring:
 
@@ -73,4 +75,4 @@ Hard to tell from my small sample if the anylyzer is doing well. Next step is ge
 
 Jest says their ES6 modules support in node is experimental so I'm just going back to `require`
 
-I didn't like the results of using the 'comparative' score - it was punishing long gushy reviews too much, bringing short reviews to the top. Therefore I am not using the total score raw.
+I didn't like the results of using the 'comparative' score - it was punishing long gushy reviews too much, bringing short reviews to the top. Therefore I am now using the total score raw.
